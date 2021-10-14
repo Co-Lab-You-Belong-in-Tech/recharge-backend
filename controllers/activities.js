@@ -5,10 +5,9 @@ export async function getAllActivities(request, response){
         const result = await Activity.find().populate("benefits").populate("symptoms")
         response.json(result)
     } catch(err) {
-        response.status(500).json({message: error.message})
+        response.status(500).json({message: err.message})
     }
 }
-
 export async function getOneActivity(request, response){
     try {
         Activity.findById(request.params.id).populate("benefits").populate("symptoms")

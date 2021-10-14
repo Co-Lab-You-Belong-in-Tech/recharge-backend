@@ -7,5 +7,5 @@ const BenefitSchema = new mongoose.Schema(
     }
 )
 
-const Benefit  = mongoose.model('benefit', BenefitSchema);
+const Benefit  = mongoose.model('Benefit', BenefitSchema);
 export default Benefit;

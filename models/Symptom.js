@@ -7,5 +7,5 @@ const SymptomSchema = new mongoose.Schema(
     }
 )
 
-const Symptom  = mongoose.model('symptom', SymptomSchema);
+const Symptom  = mongoose.model('Symptom', SymptomSchema);
 export default Symptom;
