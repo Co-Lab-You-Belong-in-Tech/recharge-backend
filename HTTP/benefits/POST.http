@@ -1,0 +1,7 @@
+POST http://localhost:3000/benefits
+Content-Type: application/json
+
+{
+    "name": "Improves Mental Performance",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}

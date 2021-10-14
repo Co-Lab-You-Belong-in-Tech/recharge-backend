@@ -1,0 +1,17 @@
+POST http://localhost:3000/activities
+Content-Type: application/json
+
+{
+    "name": "Coffee Break",
+    "duration": 5,
+    "source": "https://www.youtube.com/watch?v=ocEk0RFkmIk",
+    "type": "mental",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "instructions": [{
+        "step1": "make coffee",
+        "step2": "drink coffee"
+    }],
+    "benefits": ["616844ef3c07f79ac6384a18", "616845373c07f79ac6384a1a"],
+    "symptoms": ["616846efb33d930dc6b0d731", "616846f8b33d930dc6b0d733", "616846feb33d930dc6b0d735"],
+    "preference": false
+}

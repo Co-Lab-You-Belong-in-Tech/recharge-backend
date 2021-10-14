@@ -21,3 +21,12 @@ export async function getOneActivity(request, response){
         response.status(500).json({ message: error.message})
     }
 }
+
+export async function postActivity(request, response) {
+    try {
+        const newActivity = await Activity.create(request.body);
+        response.json(newActivity)
+    } catch(error) {
+        response.status(400).json({ message: error.message})
+    }
+}

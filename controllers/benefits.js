@@ -21,3 +21,12 @@ export async function getOneBenefit(request, response){
         response.status(500).json({ message: error.message})
     }
 }
+
+export async function postBenefit(request, response) {
+    try {
+        const newBenefit = await Benefit.create(request.body);
+        response.json(newBenefit)
+    } catch(error) {
+        response.status(400).json({ message: error.message})
+    }
+}

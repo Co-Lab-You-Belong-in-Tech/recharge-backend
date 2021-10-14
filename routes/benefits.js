@@ -3,6 +3,7 @@ import Router from 'express';
 import {
     getAllBenefits,
     getOneBenefit,
+    postBenefit
 } from "../controllers/benefits.js"
 
 const benefitRouter = Router()
@@ -10,6 +11,7 @@ const benefitRouter = Router()
 benefitRouter
     .route("/")
     .get(getAllBenefits)
+    .post(postBenefit)
 
 benefitRouter
     .route("/:id")
