@@ -1,7 +1,7 @@
-POST http://localhost:3000/benefits
+POST https://recharge-backend1.herokuapp.com/benefits
 Content-Type: application/json
 
 {
-    "name": "Improves Mental Performance",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "name": "Contains Antioxidants",
+    "description": ""
 }
