@@ -2,6 +2,6 @@ POST https://recharge-backend1.herokuapp.com/symptoms
 Content-Type: application/json
 
 {
-    "name": "Inability to Focus",
+    "name": "Bad Posture",
     "description": ""   
 }

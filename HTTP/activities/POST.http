@@ -2,16 +2,18 @@ POST http://localhost:3000/activities
 Content-Type: application/json
 
 {
-    "name": "Water",
-    "duration": 4,
-    "source": "https://www.youtube.com/watch?v=GG5U0yJHX5o",
-    "preference": ["Physical", "Mindless", "Indoor", "Self led", "Hype Up/Down"],
-    "description": "Hydration",
-    "instructions": [{
-        "step1": "get a glass of crispy water out of the fridge",
-        "step2": "drink it",
-        "step3": "repeat",
-    }],
-    "benefits": ["616844ef3c07f79ac6384a18", "616845373c07f79ac6384a1a"],
-    "symptoms": ["616846efb33d930dc6b0d731", "616846f8b33d930dc6b0d733", "616846feb33d930dc6b0d735"],
+    "name": "Stretch Seated",
+    "duration": 5,
+    "source": "https://www.youtube.com/watch?v=BdfTuxdfIE8",
+    "preference": ["Mental", "Mindful", "Indoor", "Guided", "Calm Down"],
+    "description": "-",
+    "instructions": [
+        {
+            "step1": "breathe",
+            "step2": "breathe",
+            "step3": "repeat"
+        }
+    ],
+    "benefits": ["616844ef3c07f79ac6384a18", "616845373c07f79ac6384a1a", "616d5791aa48709b0aeb1d79", "616d57b1aa48709b0aeb1d7b", "616d57bfaa48709b0aeb1d7d", "616d57caaa48709b0aeb1d7f"],
+    "symptoms": ["616d6819548a16273875937d", "616d6705548a162738759375", "616d672b548a162738759379", "616d6738548a16273875937b"]
 }
