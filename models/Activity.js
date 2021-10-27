@@ -7,7 +7,6 @@ const ActivitySchema = new mongoose.Schema(
         source: { type: String },
         preference: [{required: true, type:String}],
         description: {required: false, type: String },
-        instructions: [{required: true, type: Object}],
         benefits: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Benefit' }],
         symptoms: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Symptom' }],
     }
